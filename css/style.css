@@ -331,7 +331,8 @@ h6 {
 }
 
 input::placeholder{
-    color: ;
+    color: white;
+    /* background-color: red; */
 }
 
 .footer_wrapper .copyright-text p {
