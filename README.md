@@ -64,7 +64,6 @@ Portfolio/
 │
 ├── index.html
 ├── script.js
-├── README.md
 ├── Lakshya_resume.pdf
 │
 ├── css/
@@ -80,6 +79,8 @@ Portfolio/
 │       ├── about-preview.png
 │       ├── projects-preview.png
 │       └── contact-preview.png
+|
+└──README.md
 ```
 
 ---
