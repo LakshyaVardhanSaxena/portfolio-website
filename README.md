@@ -145,7 +145,7 @@ I enjoy building responsive, user-friendly, and modern websites while continuous
 
 💼 **LinkedIn:** [Lakshya Vardhan Saxena](https://www.linkedin.com/in/lakshya-vardhan-saxena-61024633b)
 
-🐙 GitHub: https://github.com/LakshyaVardhanSaxena
+🐙 **GitHub:** [LakshyaVardhanSaxena] ( https://github.com/LakshyaVardhanSaxena )
 
 ---
 
