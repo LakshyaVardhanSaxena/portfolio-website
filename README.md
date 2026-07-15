@@ -140,7 +140,8 @@ I enjoy building responsive, user-friendly, and modern websites while continuous
 
 # 📬 Contact
 
-📧 Email: lakshyavardhansaxena@gmail.com
+📧 **Email:** [lakshyavardhansaxena@gmail.com](mailto:lakshyavardhansaxena@gmail.com)
+
 
 💼 LinkedIn: https://www.linkedin.com/in/lakshya-vardhan-saxena-61024633b
 
