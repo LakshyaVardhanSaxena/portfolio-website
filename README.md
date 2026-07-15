@@ -79,8 +79,7 @@ Portfolio/
 │       ├── about-preview.png
 │       ├── projects-preview.png
 │       └── contact-preview.png
-|
-└──README.md
+└── README.md
 ```
 
 ---
