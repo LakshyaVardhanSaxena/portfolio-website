@@ -299,6 +299,16 @@ h6 {
     color: rgb(211, 189, 189);
 }
 
+.input-box {
+    color: white;
+    /* jo user type karega wo white dikhega */
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 8px;
+    width: 300px;
+}
+
+
 /* Footer  */
 .footer_wrapper {
     background-color: lab(2.38% 2.38 -11.97);
