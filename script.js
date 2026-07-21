@@ -1,6 +1,6 @@
 // Setup and start animation
 var typed = new Typed('#element', {
-    strings: ['Web Developer', 'Video Editor'],
+    strings: ['Web Developer', ],
     typeSpeed: 50,
 });
 
