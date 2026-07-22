@@ -267,23 +267,21 @@
                         </div>
 
                         <div>
-                            <form>
+                            <form action="https://api.web3forms.com/submit" method="POST">
+
+                                <input type="hidden" name="access_key" value="3087ad53-83ae-42e8-a8da-611e77e62240">
+
                                 <div class="mb-4">
-                                    <input type="text" class="form-control" placeholder="Your Name..." class="input-box"
-                                        autocomplete="off">
+                                    <input type="text" class="form-control input-box" name="name" placeholder="Your Name..." autocomplete="off" required>
                                 </div>
                                 <div class="mb-4">
-                                    <input type="number" class="form-control" placeholder="Your Phone..."
-                                        autocomplete="off">
+                                    <input type="number" class="form-control input-box" name="phone" placeholder="Your Phone..." autocomplete="off">
                                 </div>
                                 <div class="mb-4">
-                                    <input type="email" class="form-control" placeholder="Your Email..."
-                                        autocomplete="off">
+                                    <input type="email" class="form-control input-box" name="email" placeholder="Your Email..." autocomplete="off" required>
                                 </div>
                                 <div class="mb-4">
-                                    <textarea cols="40" rows="4" class="form-control" id="message"
-                                        placeholder="Write a Message..." autocomplete="off">
-                                    </textarea>
+                                   <textarea cols="40" rows="4" class="form-control input-box" id="message" name="message" placeholder="Write a Message..." autocomplete="off" required></textarea>
                                 </div>
                                 <button type="submit" class="main-btn">Submit</button>
                             </form>
@@ -303,7 +301,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-4 col-md-6 text-center text-md-start">
                     <!-- <div class="footer-logo mb-3 mb-md-0"> -->
-                    <h3 class="logo">Laskhya Vardhan Saxena</h3>
+                    <h3 class="logo">Lakshya Vardhan Saxena</h3>
                     <!-- </div> -->
                 </div>
                 <div class="col-lg-4 col-md-6">

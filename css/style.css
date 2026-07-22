@@ -308,12 +308,18 @@ h6 {
     width: 300px;
 }
 
-/* Placeholder ka color white karne ke liye */
-.input-box::placeholder {
-  color: white;
-  opacity: 0.7; /* thoda halka dikhega */
+/* Placeholder white karne ke liye */
+.contact_wrapper .form-control.input-box::placeholder {
+    color: white !important;
+    opacity: 0.6;
 }
-
+.contact_wrapper .form-control.input-box::-moz-placeholder {
+    color: white !important;
+    opacity: 0.6;
+}
+.contact_wrapper .form-control.input-box {
+    color: white; /* typing text bhi white */
+}
 
 /* Footer  */
 .footer_wrapper {
