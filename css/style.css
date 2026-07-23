@@ -72,10 +72,6 @@ body {
     line-height: 2px;
 }
 
-.header_wrapper .navbar {
-    flex-wrap: nowrap;
-}
-
 .header_wrapper .navbar-toggler:focus {
     box-shadow: none;
 }
