@@ -149,6 +149,17 @@ section {
     justify-content: center;
 }
 
+/* HERO IMAGE RESPONSIVE FIX */
+.rightSection img {
+    width: 100%;
+    max-width: 380px; /* Laptop/Desktop */
+    height: auto;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1; /* hamesha gol rahegi */
+    object-fit: cover;
+    box-shadow: 0 0 25px rgba(253, 71, 102, 0.4); /* thoda glow de diya */
+}
+
 img {
     height: 350px;
     border-radius: 200px;
