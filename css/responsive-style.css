@@ -39,20 +39,25 @@
     }
 
     .firstSection {
-        flex-direction: column-reverse; /* image upar text neeche */
-        align-items: center; /* center me laane ke liye */
+        flex-direction: column-reverse;
+        align-items: center;
         gap: 30px;
         margin: 100px 20px;
         padding-top: 80px;
     }
 
     .rightSection img {
-        max-width: 280px; /* Tablet size */
+        max-width: 280px;
     }
 
     .main-btn {
         margin: 20px auto;
         width: 60% !important;
+    }
+
+    /* Portfolio cards fix */
+    .portfolio_wrapper .card {
+        min-height: 300px;
     }
 }
 
@@ -88,6 +93,75 @@
     }
 
     .rightSection img {
-        max-width: 200px; /* Mobile size */
+        max-width: 200px;
+    }
+
+    /* Form + Contact fix */
+    .contact_wrapper .form-control,
+    .contact_wrapper textarea,
+    .input-box {
+        width: 100% !important;
+    }
+}
+
+/* NEW: Small Mobile 490px Fix */
+@media (max-width: 490px) {
+    .firstSection {
+        margin: 80px 15px;
+        padding-top: 70px;
+    }
+
+    .firstSection>div {
+        font-size: 1.5rem;
+    }
+
+    .rightSection img {
+        max-width: 180px;
+    }
+
+    h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    /* Portfolio + About cards full width */
+    .portfolio_wrapper .card,
+    .about_wrapper .tab-pane {
+        width: 100%;
+    }
+}
+
+/* NEW: Extra Small Mobile 430px Fix */
+@media (max-width: 430px) {
+    .firstSection>div {
+        font-size: 1.3rem;
+    }
+
+    .rightSection img {
+        max-width: 150px;
+    }
+
+    .main-btn {
+        width: 80% !important;
+        padding: 8px 20px;
+        font-size: 12px;
+    }
+
+    /* Contact form tircha na ho */
+    .contact_wrapper .container,
+    .contact_wrapper .row {
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 0;
+    }
+
+    /* Images side me na jaye */
+    img {
+        max-width: 100%;
+        height: auto;
     }
 }
